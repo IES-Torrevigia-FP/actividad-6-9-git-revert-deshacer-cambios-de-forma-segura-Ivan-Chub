@@ -1,0 +1,8 @@
+modo=tecnica
+nivel_log=infoc a c h e = a c t i v a d a 
+ 
+ m o d o = d e b u g 
+ 
+ l i m i t e _ c o n e x i o n e s = 1 0 0 
+ 
+ 

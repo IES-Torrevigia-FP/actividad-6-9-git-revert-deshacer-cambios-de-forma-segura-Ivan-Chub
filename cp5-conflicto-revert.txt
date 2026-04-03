@@ -1,0 +1,20 @@
+git status:
+On branch main
+You are currently reverting commit 0fbef4f.
+  (fix conflicts and run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+Unmerged paths:
+  (use "git restore --staged <file>..." to unstage)
+  (use "git add <file>..." to mark resolution)
+        both modified:   config.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        cp1-historial-inicial-revert.txt
+        cp2-revert-simple.txt
+        cp3-revert-head.txt
+        cp4-multiples-revert.txt
+
+He ejecutando el comando "git status", he quitado los marcadores desde config.txt y he ejecutado "git add config.txt" y "git revert --continue".

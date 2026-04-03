@@ -1,0 +1,12 @@
+git log --oneline:
+e4afdb9 (HEAD -> main) Ajusta limite de conexiones
+0fbef4f Cambia a modo debug en producción (bug)
+ca5c761 Activa cache por defecto
+999832a Config inicial para producción
+
+modo=produccion
+nivel_log=infoc a c h e = a c t i v a d a 
+ 
+ m o d o = d e b u g 
+ 
+ l i m i t e _ c o n e x i o n e s = 1 0 0

@@ -1,0 +1,16 @@
+--no-commit:
+git revert --no-commit 6ff0a8e
+git revert --no-commit 9ba7e46
+
+git log --oneline:
+9c338fc (HEAD -> main) Revierte experimentos 1 y 2
+6ff0a8e Activa experimento 2
+9ba7e46 Activa experimento 1
+9bff84c Revert "Sube nivel de log a debug (también bug)"
+56d66f7 Sube nivel de log a debug (también bug)
+e4afdb9 Ajusta limite de conexiones
+0fbef4f Cambia a modo debug en producción (bug)
+ca5c761 Activa cache por defecto
+999832a Config inicial para producción
+
+Es una técnica útil para mantener el orden y la funcionalidad del repositorio, especialmente cuando una característica completa o un conjunto de cambios relacionados causa problemas.
